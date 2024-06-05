@@ -1,0 +1,13 @@
+1) Check the terraform version
+terraform version
+2) aws --version
+
+
+create main.tf file
+Do the configuration
+
+3)terraform init :- for the initialization
+4)terraform fmt
+5)terraform validate
+6)terraform plan
+7) terraform apply
