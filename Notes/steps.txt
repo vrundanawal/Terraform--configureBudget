@@ -10,4 +10,4 @@ Do the configuration
 4)terraform fmt
 5)terraform validate
 6)terraform plan
-7) terraform apply
+7)terraform apply

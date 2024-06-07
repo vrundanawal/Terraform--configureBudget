@@ -12,12 +12,12 @@ provider "aws" {
 }
 
 resource "aws_budgets_budget" "monthly-budget" {
-  name              = "monthly-budget-terraformTest"
+  name              = "terraformTest-monthly-budget"
   budget_type       = "COST"
   limit_amount      = "10.00"
   limit_unit        = "USD"
-  time_period_start = "2024-06-01_00:00"
-  time_period_end   = "2024-06-07_00:00"
+  time_period_start = "2024-06-07_00:00"
+  time_period_end   = "2024-06-10_00:00"
   time_unit         = "MONTHLY"
 
   notification {
